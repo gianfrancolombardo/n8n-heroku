@@ -5,7 +5,7 @@ USER root
 WORKDIR /home/node/packages/cli
 ENTRYPOINT []
 
-RUN npm install music-metadata
+# RUN npm install music-metadata
 
 COPY ./entrypoint.sh /
 RUN chmod +x /entrypoint.sh
